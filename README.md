@@ -5,4 +5,4 @@ Cette application de calculatrice avancée est conçue pour fournir une interfac
 
 ## Installation
 
-Pour exécuter cette application, assurez-vous d'avoir Python 3.x installé sur votre machine. Clonez ce dépôt, naviguez jusqu'au dossier du projet et exécutez le fichier `calculatrice.py` pour lancer l'application.
+Pour exécuter cette application, assurez-vous d'avoir Python 3.x installé sur votre machine. Clonez ce dépôt, naviguez jusqu'au dossier du projet et exécutez le fichier `calculator.py` pour lancer l'application.

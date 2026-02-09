@@ -48,13 +48,13 @@ for i in range(4):
 bt_1 = tk.Button(window, text="AC", font=("Arial", 14), bg="#56739A", fg="white",command=supp)
 bt_1.grid(row=1, column=0, padx=1, pady=1, sticky="nsew")  
 
-bt_2 = tk.Button(window, text="+/-", font=("Arial", 14), bg="#56739A", fg="white",command=click('+/-'))
+bt_2 = tk.Button(window, text="+/-", font=("Arial", 14), bg="#56739A", fg="white",command=lambda: click('+/-'))
 bt_2.grid(row=1, column=1, padx=1, pady=1, sticky="nsew")  
 
-bt_3 = tk.Button(window, text='%', font=("Arial", 14), bg="#56739A", fg="white",command=click('%'))
+bt_3 = tk.Button(window, text='%', font=("Arial", 14), bg="#56739A", fg="white",command=lambda: click('%'))
 bt_3.grid(row=1, column=2, padx=1, pady=1, sticky="nsew")  
 
-bt_4 = tk.Button(window, text="/", font=("Arial", 14), bg="#ED7F10", fg="white",command=click('/'))
+bt_4 = tk.Button(window, text="/", font=("Arial", 14), bg="#ED7F10", fg="white",command=lambda: click('/'))
 bt_4.grid(row=1, column=3, padx=1, pady=1, sticky="nsew")  
 
 bt_5 = tk.Button(window, text="7", font=("Arial", 14), bg="#56739A", fg="white", command=lambda: click('7'))
